@@ -1,0 +1,14 @@
+{
+	"syntaxVersion": 3,
+    "projectPackageId": "ca.nbmaltais.popularmovies",
+    "authority": "ca.nbmaltais.popularmovies.provider",
+    "providerJavaPackage": "ca.nbmaltais.popularmovies.provider",
+    "providerClassName": "PopularMoviesProvider",
+    "sqliteOpenHelperClassName": "PopularMoviesDBHelper",
+    "sqliteOpenHelperCallbacksClassName": "PopularMoviesDBHelperCallbacks",
+    "databaseFileName": "movies.db",
+    "databaseVersion": 1,
+    "enableForeignKeys": true,
+    "useAnnotations": true
+
+}

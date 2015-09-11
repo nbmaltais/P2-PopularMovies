@@ -1,0 +1,22 @@
+{
+	"documentation": "List of favorite movies. The foreigh key use on restrict to prevent deletion of favorite movies from the movie table.",
+	"fields": [
+		{
+			"name": "movie_id",
+			"type": "Long",
+			"nullable": false,
+			"foreignKey": {
+				"table": "movie",
+				"onDelete": "RESTRICT"
+			}
+		},
+
+	],
+
+	"constraints": [
+		{
+			"name": "unique_movie_id",
+			"definition": "UNIQUE (movie_id) ON CONFLICT IGNORE"
+		},
+	],
+}

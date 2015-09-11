@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="fragment_movie_list">@layout/fragment_movie_list_no_toolbar</item>
+    <item type="layout" name="fragment_movie_detail">@layout/fragment_movie_detail_two_panes</item>
+    <item type="layout" name="item_movie_detail">@layout/item_movie_detail_backdrop</item>
+</resources>

@@ -1,0 +1,12 @@
+package ca.nbmaltais.popularmovies;
+
+/**
+ * Created by Nicolas on 2015-07-21.
+ */
+public class APIKEY
+{
+    static public String getApiKey()
+    {
+        return "enter API key here";
+    }
+}

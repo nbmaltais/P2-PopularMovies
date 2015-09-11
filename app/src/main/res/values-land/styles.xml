@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style for the image view in the collapsible app bar -->
+    <style name="AppBarImageView">
+        <item name="android:maxHeight">@dimen/appbar_image_height</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+</resources>

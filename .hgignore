@@ -1,0 +1,13 @@
+syntax: glob
+app/build
+app/src/main/java/ca/nbmaltais/popularmovies/APIKEY.java
+.gradle
+.idea
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+Thumbs.db

@@ -1,0 +1,52 @@
+{
+	"documentation":"Video",
+	"fields": [
+		{
+			"name": "movie_id",
+			"type": "Long",
+			"nullable": false,
+			"foreignKey": {
+				"table": "movie",
+				"onDelete": "CASCADE"
+			}
+		},
+		{
+			"name":"string_id",
+			"type":"String",
+			"nullable": false,
+		},
+		{
+			"name":"key",
+			"type":"String",
+			"nullable": false,
+		} ,
+		{
+			"name":"name",
+			"type":"String",
+			"nullable": true,
+		} ,
+		{
+			"name":"site",
+			"type":"String",
+			"nullable": true,
+		} ,
+		{
+			"name":"type",
+			"type":"String",
+			"nullable": true,
+		},
+		{
+			"name":"size",
+			"type":"Integer",
+			"nullable": true,
+		}
+	],
+
+	"constraints": [
+		{
+			"name": "unique_moviedb_id",
+			"definition": "UNIQUE (string_id) ON CONFLICT IGNORE"
+		},
+	],
+	
+}

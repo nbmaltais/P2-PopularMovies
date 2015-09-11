@@ -1,0 +1,58 @@
+{
+	"documentation":"A movie entry in themoviedb.org",
+	"fields": [
+
+		{
+			"name": "original_title",
+			"type": "String",
+			"nullable": false,
+			"index": true,
+		},
+		{
+			"name": "overview",
+			"type": "String",
+			"nullable": true,
+		},
+		{
+			"name": "vote_average",
+			"type": "Double",
+			"nullable": false
+		},
+		{
+			"name": "vote_count",
+			"type": "Integer",
+			"nullable": false
+		},	
+		{
+			"name": "release_date",
+			"type": "String",
+			"nullable": true,
+		},
+
+
+		
+		{
+			"name": "backdrop_path",
+			"type": "String",
+			"nullable": true,
+		},
+		{
+			"name": "poster_path",
+			"type": "String",
+			"nullable": true,
+		},
+
+		
+		{
+			"name": "title",
+			"type": "String",
+			"nullable": true,
+		},
+		{
+			"name": "popularity",
+			"type": "Double",
+			"nullable": false,
+		},	
+	],
+
+}

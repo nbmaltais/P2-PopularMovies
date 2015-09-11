@@ -1,0 +1,41 @@
+{
+	"documentation":"Comments for a movie",
+	"fields": [
+		{
+			"name": "movie_id",
+			"type": "Long",
+			"nullable": false,
+			"foreignKey": {
+				"table": "movie",
+				"onDelete": "CASCADE"
+			}
+		},
+		{
+			"name":"string_id",
+			"type":"String",
+			"nullable": false,
+		},
+		{
+			"name":"author",
+			"type":"String",
+			"nullable": true,
+		},
+		{
+			"name":"content",
+			"type":"String",
+			"nullable": true,
+		},
+		{
+			"name":"url",
+			"type":"String",
+			"nullable": true,
+		},
+	],
+
+	"constraints": [
+		{
+			"name": "unique_moviedb_id",
+			"definition": "UNIQUE (string_id) ON CONFLICT IGNORE"
+		},
+	],
+}

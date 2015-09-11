@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:minHeight="?attr/listPreferredItemHeight"
+              android:paddingLeft="@dimen/activity_vertical_margin"
+              android:paddingRight="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/comment_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:paddingBottom="@dimen/spacing_vertical_text"
+        tools:text="Somebody wrote"/>
+    <TextView
+        android:id="@+id/comment_content"
+        android:minHeight="?attr/listPreferredItemHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/spacing_vertical_standard"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:text="Blablabla bla bla bla. Blablabla bla bla bla. Blablabla bla bla bla. Blablabla bla bla bla. Blablabla bla bla bla. Blablabla bla bla bla. Blablabla bla bla bla. Blablabla bla bla bla. Blablabla bla bla bla. Blablabla bla bla bla. Blablabla bla bla bla."/>
+</LinearLayout>
